@@ -1,0 +1,13 @@
+3.a) Que faut-il modifier pour que ça ne soit plus le cas ?
+- La requete HTTP doit etre 'post' et non 'get' 
+
+3.b) Combien l'URL contient-elle de paramètres ?
+- L'URL contient 2 paramètres (login et mdp)
+
+3.c) Pour analyser une requête HTTP, il faut cliquer sur la ligne qui correspond dans la console de Firefox. On obtient alors plusieurs onglets, qui permettent notamment d'obtenir les en-têtes (de la question et de la réponse), les cookies, la requête, et la réponse.
+Avec la modification apportée précédemment, où sont maintenant indiqués les valeurs des différents paramètres (leNomDUtilisateur, leMotDePasse, ...) ?
+- Les données sont dans les cookies avec la requete 'post'
+
+3.d) Quels sont les différents types de données que l'on peut mettre dans une formulaire HTML ?
+Ajoute les dans la page, et observe comment ces paramètres sont envoyés dans la requête HTTP.
+- text, mdp (text caché), e-mail, url, tel, entier, curseur, date, recherche

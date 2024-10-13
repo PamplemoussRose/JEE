@@ -1,0 +1,153 @@
+04-Oct-2024 11:09:33.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.29
+04-Oct-2024 11:09:33.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 5 2024 14:23:34 UTC
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.29.0
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\JEE\JDK\jdk-11.0.23
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.23+7-LTS-222
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+04-Oct-2024 11:09:33.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+04-Oct-2024 11:09:33.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=c:\JEE\serveurs\apache-tomcat-10.1.29/conf/logging.properties
+04-Oct-2024 11:09:33.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2024 11:09:33.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2024 11:09:33.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2024 11:09:33.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2024 11:09:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=c:\JEE\serveurs\apache-tomcat-10.1.29
+04-Oct-2024 11:09:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=c:\JEE\serveurs\apache-tomcat-10.1.29
+04-Oct-2024 11:09:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=c:\JEE\serveurs\apache-tomcat-10.1.29/temp
+04-Oct-2024 11:09:33.117 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\JEE\JDK\jdk-11.0.23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\JEE\JDK\jdk-11.0.23\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PHP;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\JEE\apache-maven-3.9.9\bin;C:\JEE\JDK\jdk-11.0.23\bin;C:\Users\robin\AppData\Local\Microsoft\WindowsApps;C:\Users\robin\AppData\Local\GitHubDesktop\bin;C:\Users\robin\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+04-Oct-2024 11:09:33.430 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+04-Oct-2024 11:09:33.483 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [713] millisecondes
+04-Oct-2024 11:09:33.548 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+04-Oct-2024 11:09:33.548 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.29]
+04-Oct-2024 11:09:33.578 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] de l'application web
+04-Oct-2024 11:09:34.245 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [216] millisecondes
+04-Oct-2024 11:09:34.279 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] s'est terminé en [701] ms
+04-Oct-2024 11:09:34.289 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] de l'application web
+04-Oct-2024 11:09:34.388 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] s'est terminé en [99] ms
+04-Oct-2024 11:09:34.395 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:09:34.509 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [114] ms
+04-Oct-2024 11:09:34.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs]
+04-Oct-2024 11:09:34.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs] de l'application web s'est terminé en [45] ms
+04-Oct-2024 11:09:34.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples]
+04-Oct-2024 11:09:35.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples] de l'application web s'est terminé en [692] ms
+04-Oct-2024 11:09:35.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager]
+04-Oct-2024 11:09:35.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager] de l'application web s'est terminé en [55] ms
+04-Oct-2024 11:09:35.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager]
+04-Oct-2024 11:09:35.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager] de l'application web s'est terminé en [51] ms
+04-Oct-2024 11:09:35.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT]
+04-Oct-2024 11:09:35.392 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT] de l'application web s'est terminé en [34] ms
+04-Oct-2024 11:09:35.401 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+04-Oct-2024 11:09:35.627 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2143] millisecondes
+04-Oct-2024 11:11:45.730 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:11:45.792 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:11:45.898 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [106] ms
+04-Oct-2024 11:14:16.177 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:14:16.240 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:14:16.351 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [111] ms
+04-Oct-2024 11:19:37.167 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:19:37.239 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:19:37.339 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [100] ms
+04-Oct-2024 11:20:57.555 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:20:57.607 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:20:57.699 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [92] ms
+04-Oct-2024 11:51:11.906 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:51:11.959 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:51:12.064 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [105] ms
+04-Oct-2024 11:52:12.148 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:52:12.198 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:52:12.309 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [111] ms
+04-Oct-2024 11:53:02.432 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:53:02.471 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:53:02.580 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [109] ms
+04-Oct-2024 11:54:22.771 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:54:22.814 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:54:22.927 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [113] ms
+04-Oct-2024 11:56:23.133 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 11:56:23.181 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 11:56:23.287 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [106] ms
+04-Oct-2024 12:08:14.674 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 12:08:14.725 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 12:08:14.824 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [99] ms
+04-Oct-2024 12:09:04.966 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 12:09:05.014 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 12:09:05.138 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [124] ms
+04-Oct-2024 12:10:05.244 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 12:10:05.296 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 12:10:05.412 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [117] ms
+04-Oct-2024 12:11:35.617 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 12:11:35.680 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 12:11:35.791 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [111] ms
+04-Oct-2024 12:33:25.688 INFO [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+04-Oct-2024 12:33:25.690 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+04-Oct-2024 12:33:26.057 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+04-Oct-2024 12:33:26.087 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+04-Oct-2024 12:33:26.104 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+04-Oct-2024 18:21:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.29
+04-Oct-2024 18:21:39.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 5 2024 14:23:34 UTC
+04-Oct-2024 18:21:39.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.29.0
+04-Oct-2024 18:21:39.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+04-Oct-2024 18:21:39.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+04-Oct-2024 18:21:39.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+04-Oct-2024 18:21:39.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\JEE\JDK\jdk-11.0.23
+04-Oct-2024 18:21:39.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.23+7-LTS-222
+04-Oct-2024 18:21:39.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+04-Oct-2024 18:21:39.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+04-Oct-2024 18:21:39.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+04-Oct-2024 18:21:39.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=c:\JEE\serveurs\apache-tomcat-10.1.29/conf/logging.properties
+04-Oct-2024 18:21:39.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Oct-2024 18:21:39.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+04-Oct-2024 18:21:39.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Oct-2024 18:21:39.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Oct-2024 18:21:39.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=c:\JEE\serveurs\apache-tomcat-10.1.29
+04-Oct-2024 18:21:39.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=c:\JEE\serveurs\apache-tomcat-10.1.29
+04-Oct-2024 18:21:39.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=c:\JEE\serveurs\apache-tomcat-10.1.29/temp
+04-Oct-2024 18:21:39.709 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\JEE\JDK\jdk-11.0.23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\JEE\JDK\jdk-11.0.23\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PHP;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\JEE\apache-maven-3.9.9\bin;C:\JEE\JDK\jdk-11.0.23\bin;C:\Users\robin\AppData\Local\Microsoft\WindowsApps;C:\Users\robin\AppData\Local\GitHubDesktop\bin;C:\Users\robin\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+04-Oct-2024 18:21:40.082 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+04-Oct-2024 18:21:40.134 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [736] millisecondes
+04-Oct-2024 18:21:40.187 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+04-Oct-2024 18:21:40.187 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.29]
+04-Oct-2024 18:21:40.232 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] de l'application web
+04-Oct-2024 18:21:40.865 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [237] millisecondes
+04-Oct-2024 18:21:40.904 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] s'est terminé en [673] ms
+04-Oct-2024 18:21:40.926 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] de l'application web
+04-Oct-2024 18:21:41.024 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] s'est terminé en [98] ms
+04-Oct-2024 18:21:41.028 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 18:21:41.109 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [81] ms
+04-Oct-2024 18:21:41.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs]
+04-Oct-2024 18:21:41.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs] de l'application web s'est terminé en [48] ms
+04-Oct-2024 18:21:41.158 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples]
+04-Oct-2024 18:21:41.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples] de l'application web s'est terminé en [584] ms
+04-Oct-2024 18:21:41.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager]
+04-Oct-2024 18:21:41.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager] de l'application web s'est terminé en [53] ms
+04-Oct-2024 18:21:41.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager]
+04-Oct-2024 18:21:41.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager] de l'application web s'est terminé en [46] ms
+04-Oct-2024 18:21:41.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT]
+04-Oct-2024 18:21:41.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT] de l'application web s'est terminé en [31] ms
+04-Oct-2024 18:21:41.888 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+04-Oct-2024 18:21:42.128 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1994] millisecondes
+04-Oct-2024 18:48:05.728 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 18:48:05.799 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 18:48:05.960 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [161] ms
+04-Oct-2024 18:48:56.513 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 18:48:57.361 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 18:48:57.665 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [313] ms
+04-Oct-2024 18:50:27.868 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 18:50:27.966 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 18:50:28.100 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [134] ms
+04-Oct-2024 18:53:28.460 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 18:53:28.517 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 18:53:28.663 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [146] ms
+04-Oct-2024 18:57:49.338 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 18:57:49.411 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 18:57:49.545 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [134] ms
+04-Oct-2024 18:58:59.702 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/td3]
+04-Oct-2024 18:58:59.775 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+04-Oct-2024 18:58:59.900 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [125] ms
+04-Oct-2024 19:01:50.985 INFO [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+04-Oct-2024 19:01:50.986 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+04-Oct-2024 19:01:51.357 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+04-Oct-2024 19:01:51.388 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+04-Oct-2024 19:01:51.404 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]

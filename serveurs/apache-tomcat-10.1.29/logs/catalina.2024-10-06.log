@@ -1,0 +1,487 @@
+06-Oct-2024 15:26:50.419 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.29
+06-Oct-2024 15:26:50.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 5 2024 14:23:34 UTC
+06-Oct-2024 15:26:50.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.29.0
+06-Oct-2024 15:26:50.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+06-Oct-2024 15:26:50.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+06-Oct-2024 15:26:50.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+06-Oct-2024 15:26:50.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\JEE\JDK\jdk-11.0.23
+06-Oct-2024 15:26:50.425 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.23+7-LTS-222
+06-Oct-2024 15:26:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+06-Oct-2024 15:26:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 15:26:50.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 15:26:50.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=c:\JEE\serveurs\apache-tomcat-10.1.29/conf/logging.properties
+06-Oct-2024 15:26:50.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2024 15:26:50.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2024 15:26:50.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2024 15:26:50.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Oct-2024 15:26:50.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=c:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 15:26:50.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=c:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 15:26:50.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=c:\JEE\serveurs\apache-tomcat-10.1.29/temp
+06-Oct-2024 15:26:50.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\JEE\JDK\jdk-11.0.23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\JEE\JDK\jdk-11.0.23\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PHP;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\JEE\apache-maven-3.9.9\bin;C:\JEE\JDK\jdk-11.0.23\bin;C:\Users\robin\AppData\Local\Microsoft\WindowsApps;C:\Users\robin\AppData\Local\GitHubDesktop\bin;C:\Users\robin\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+06-Oct-2024 15:26:50.853 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 15:26:50.919 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [815] millisecondes
+06-Oct-2024 15:26:50.991 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+06-Oct-2024 15:26:50.991 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.29]
+06-Oct-2024 15:26:51.029 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] de l'application web
+06-Oct-2024 15:26:51.766 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [246] millisecondes
+06-Oct-2024 15:26:51.805 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] s'est terminé en [775] ms
+06-Oct-2024 15:26:51.822 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] de l'application web
+06-Oct-2024 15:26:51.924 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] s'est terminé en [102] ms
+06-Oct-2024 15:26:51.927 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+06-Oct-2024 15:26:52.017 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [90] ms
+06-Oct-2024 15:26:52.019 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs]
+06-Oct-2024 15:26:52.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs] de l'application web s'est terminé en [65] ms
+06-Oct-2024 15:26:52.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples]
+06-Oct-2024 15:26:52.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples] de l'application web s'est terminé en [675] ms
+06-Oct-2024 15:26:52.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager]
+06-Oct-2024 15:26:52.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager] de l'application web s'est terminé en [55] ms
+06-Oct-2024 15:26:52.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager]
+06-Oct-2024 15:26:52.868 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager] de l'application web s'est terminé en [51] ms
+06-Oct-2024 15:26:52.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT]
+06-Oct-2024 15:26:52.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT] de l'application web s'est terminé en [56] ms
+06-Oct-2024 15:26:52.952 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 15:26:53.230 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2310] millisecondes
+06-Oct-2024 15:35:34.687 INFO [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+06-Oct-2024 15:35:34.688 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+06-Oct-2024 15:35:35.025 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+06-Oct-2024 15:35:35.130 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 15:35:35.141 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 15:36:01.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.29
+06-Oct-2024 15:36:01.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 5 2024 14:23:34 UTC
+06-Oct-2024 15:36:01.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.29.0
+06-Oct-2024 15:36:01.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+06-Oct-2024 15:36:01.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+06-Oct-2024 15:36:01.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+06-Oct-2024 15:36:01.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\JEE\JDK\jdk-11.0.23
+06-Oct-2024 15:36:01.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.23+7-LTS-222
+06-Oct-2024 15:36:01.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+06-Oct-2024 15:36:01.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 15:36:01.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 15:36:01.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=c:\JEE\serveurs\apache-tomcat-10.1.29/conf/logging.properties
+06-Oct-2024 15:36:01.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2024 15:36:01.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2024 15:36:01.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2024 15:36:01.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Oct-2024 15:36:01.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=c:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 15:36:01.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=c:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 15:36:01.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=c:\JEE\serveurs\apache-tomcat-10.1.29/temp
+06-Oct-2024 15:36:01.582 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\JEE\JDK\jdk-11.0.23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\JEE\JDK\jdk-11.0.23\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PHP;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\JEE\apache-maven-3.9.9\bin;C:\JEE\JDK\jdk-11.0.23\bin;C:\Users\robin\AppData\Local\Microsoft\WindowsApps;C:\Users\robin\AppData\Local\GitHubDesktop\bin;C:\Users\robin\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+06-Oct-2024 15:36:02.310 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 15:36:02.458 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [1513] millisecondes
+06-Oct-2024 15:36:02.563 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+06-Oct-2024 15:36:02.563 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.29]
+06-Oct-2024 15:36:02.611 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] de l'application web
+06-Oct-2024 15:36:03.714 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [316] millisecondes
+06-Oct-2024 15:36:03.759 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] s'est terminé en [1 148] ms
+06-Oct-2024 15:36:03.763 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] de l'application web
+06-Oct-2024 15:36:03.902 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] s'est terminé en [139] ms
+06-Oct-2024 15:36:03.905 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+06-Oct-2024 15:36:04.032 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [127] ms
+06-Oct-2024 15:36:04.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs]
+06-Oct-2024 15:36:04.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs] de l'application web s'est terminé en [67] ms
+06-Oct-2024 15:36:04.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples]
+06-Oct-2024 15:36:04.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples] de l'application web s'est terminé en [606] ms
+06-Oct-2024 15:36:04.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager]
+06-Oct-2024 15:36:04.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager] de l'application web s'est terminé en [62] ms
+06-Oct-2024 15:36:04.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager]
+06-Oct-2024 15:36:04.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager] de l'application web s'est terminé en [48] ms
+06-Oct-2024 15:36:04.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT]
+06-Oct-2024 15:36:04.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT] de l'application web s'est terminé en [39] ms
+06-Oct-2024 15:36:04.869 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 15:36:05.166 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2707] millisecondes
+06-Oct-2024 15:37:52.764 INFO [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+06-Oct-2024 15:37:52.764 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+06-Oct-2024 15:37:53.456 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+06-Oct-2024 15:37:53.499 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 15:37:53.505 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 16:17:14.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/10.1.29
+06-Oct-2024 16:17:14.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Sep 5 2024 14:23:34 UTC
+06-Oct-2024 16:17:14.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               10.1.29.0
+06-Oct-2024 16:17:14.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+06-Oct-2024 16:17:14.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+06-Oct-2024 16:17:14.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+06-Oct-2024 16:17:14.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\JEE\JDK\jdk-11.0.23
+06-Oct-2024 16:17:14.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.23+7-LTS-222
+06-Oct-2024 16:17:14.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+06-Oct-2024 16:17:14.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 16:17:14.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 16:17:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=c:\JEE\serveurs\apache-tomcat-10.1.29/conf/logging.properties
+06-Oct-2024 16:17:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2024 16:17:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2024 16:17:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2024 16:17:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Oct-2024 16:17:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=c:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 16:17:14.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=c:\JEE\serveurs\apache-tomcat-10.1.29
+06-Oct-2024 16:17:14.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=c:\JEE\serveurs\apache-tomcat-10.1.29/temp
+06-Oct-2024 16:17:14.790 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\JEE\JDK\jdk-11.0.23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\JEE\JDK\jdk-11.0.23\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PHP;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\JEE\apache-maven-3.9.9\bin;C:\JEE\JDK\jdk-11.0.23\bin;C:\Users\robin\AppData\Local\Microsoft\WindowsApps;C:\Users\robin\AppData\Local\GitHubDesktop\bin;C:\Users\robin\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.]
+06-Oct-2024 16:17:15.175 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 16:17:15.235 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [767] millisecondes
+06-Oct-2024 16:17:15.305 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+06-Oct-2024 16:17:15.305 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/10.1.29]
+06-Oct-2024 16:17:15.338 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] de l'application web
+06-Oct-2024 16:17:15.668 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Erreur fatale lors de l'analyse à la ligne [13] colonne [2]
+	org.xml.sax.SAXParseException; systemId: file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml; lineNumber: 13; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1398)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4328)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:969)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1911)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:771)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:423)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+06-Oct-2024 16:17:15.671 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Erreur de traitement du web.xml de l'application à [file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml; lineNumber: 13; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1398)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4328)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:969)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1911)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:771)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:423)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+06-Oct-2024 16:17:15.676 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml S'est produit à la ligne [13] colonne [2]
+06-Oct-2024 16:17:15.713 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart Cette application est marquée comme non disponible suite aux erreurs précédentes
+06-Oct-2024 16:17:15.834 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Un ou plusieurs composants ont marqué ce contexte comme n'étant pas correctement configuré
+06-Oct-2024 16:17:16.027 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [191] millisecondes
+06-Oct-2024 16:17:16.028 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Erreur de démarrage du contexte [/boutique] suite aux erreurs précédentes
+06-Oct-2024 16:17:16.044 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] s'est terminé en [706] ms
+06-Oct-2024 16:17:16.054 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] de l'application web
+06-Oct-2024 16:17:16.252 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td1.war] s'est terminé en [198] ms
+06-Oct-2024 16:17:16.264 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] de l'application web
+06-Oct-2024 16:17:16.361 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td2.war] s'est terminé en [98] ms
+06-Oct-2024 16:17:16.370 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] de l'application web
+06-Oct-2024 16:17:16.451 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\td3.war] s'est terminé en [82] ms
+06-Oct-2024 16:17:16.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs]
+06-Oct-2024 16:17:16.499 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\docs] de l'application web s'est terminé en [47] ms
+06-Oct-2024 16:17:16.499 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples]
+06-Oct-2024 16:17:17.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\examples] de l'application web s'est terminé en [599] ms
+06-Oct-2024 16:17:17.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager]
+06-Oct-2024 16:17:17.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\host-manager] de l'application web s'est terminé en [60] ms
+06-Oct-2024 16:17:17.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager]
+06-Oct-2024 16:17:17.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\manager] de l'application web s'est terminé en [45] ms
+06-Oct-2024 16:17:17.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT]
+06-Oct-2024 16:17:17.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\ROOT] de l'application web s'est terminé en [33] ms
+06-Oct-2024 16:17:17.248 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 16:17:17.459 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [2223] millisecondes
+06-Oct-2024 16:19:08.676 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/boutique]
+06-Oct-2024 16:19:08.741 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] de l'application web
+06-Oct-2024 16:19:08.836 SEVERE [Catalina-utility-1] org.apache.tomcat.util.digester.Digester.fatalError Erreur fatale lors de l'analyse à la ligne [13] colonne [2]
+	org.xml.sax.SAXParseException; systemId: file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml; lineNumber: 13; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1398)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4328)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:969)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1911)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:771)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:423)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1678)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+06-Oct-2024 16:19:08.836 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Erreur de traitement du web.xml de l'application à [file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml; lineNumber: 13; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1398)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4328)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:969)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1911)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:771)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:423)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1678)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+06-Oct-2024 16:19:08.843 SEVERE [Catalina-utility-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml S'est produit à la ligne [13] colonne [2]
+06-Oct-2024 16:19:08.851 SEVERE [Catalina-utility-1] org.apache.catalina.startup.ContextConfig.configureStart Cette application est marquée comme non disponible suite aux erreurs précédentes
+06-Oct-2024 16:19:08.853 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Un ou plusieurs composants ont marqué ce contexte comme n'étant pas correctement configuré
+06-Oct-2024 16:19:08.854 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Erreur de démarrage du contexte [/boutique] suite aux erreurs précédentes
+06-Oct-2024 16:19:08.858 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] s'est terminé en [117] ms
+06-Oct-2024 16:21:49.209 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/boutique]
+06-Oct-2024 16:21:49.269 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] de l'application web
+06-Oct-2024 16:21:49.415 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] s'est terminé en [146] ms
+06-Oct-2024 16:23:19.605 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/boutique]
+06-Oct-2024 16:23:19.653 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] de l'application web
+06-Oct-2024 16:23:19.747 SEVERE [Catalina-utility-2] org.apache.tomcat.util.digester.Digester.fatalError Erreur fatale lors de l'analyse à la ligne [14] colonne [2]
+	org.xml.sax.SAXParseException; systemId: file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml; lineNumber: 14; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1398)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4328)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:969)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1911)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:771)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:423)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1678)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+06-Oct-2024 16:23:19.749 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Erreur de traitement du web.xml de l'application à [file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml]
+	org.xml.sax.SAXParseException; systemId: file:/C:/JEE/serveurs/apache-tomcat-10.1.29/webapps/boutique/WEB-INF/web.xml; lineNumber: 14; columnNumber: 2; The markup in the document following the root element must be well-formed.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$TrailingMiscDriver.next(XMLDocumentScannerImpl.java:1398)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1522)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1236)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4328)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:969)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1911)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:771)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:423)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1678)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:973)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1172)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1176)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1154)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+06-Oct-2024 16:23:19.751 SEVERE [Catalina-utility-2] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml S'est produit à la ligne [14] colonne [2]
+06-Oct-2024 16:23:19.755 SEVERE [Catalina-utility-2] org.apache.catalina.startup.ContextConfig.configureStart Cette application est marquée comme non disponible suite aux erreurs précédentes
+06-Oct-2024 16:23:19.755 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Un ou plusieurs composants ont marqué ce contexte comme n'étant pas correctement configuré
+06-Oct-2024 16:23:19.756 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Erreur de démarrage du contexte [/boutique] suite aux erreurs précédentes
+06-Oct-2024 16:23:19.761 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] s'est terminé en [110] ms
+06-Oct-2024 16:29:50.711 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/boutique]
+06-Oct-2024 16:29:50.778 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] de l'application web
+06-Oct-2024 16:29:50.905 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] s'est terminé en [126] ms
+06-Oct-2024 16:31:51.183 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Retrait de l'application web ayant pour chemin de contexte [/boutique]
+06-Oct-2024 16:31:51.250 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] de l'application web
+06-Oct-2024 16:31:51.385 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Le déploiement de l'archive de l'application web [C:\JEE\serveurs\apache-tomcat-10.1.29\webapps\boutique.war] s'est terminé en [135] ms
+06-Oct-2024 16:58:28.059 INFO [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+06-Oct-2024 16:58:28.060 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+06-Oct-2024 16:58:28.421 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+06-Oct-2024 16:58:28.454 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+06-Oct-2024 16:58:28.470 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]

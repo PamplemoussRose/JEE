@@ -1,0 +1,5 @@
+fr\univtours\polytech\td3\JakartaRestConfiguration.class
+fr\univtours\polytech\td3\servlet\CounterServlet.class
+fr\univtours\polytech\td3\servlet\PrenomServlet.class
+fr\univtours\polytech\td3\servlet\ListsServlet.class
+fr\univtours\polytech\td3\resources\JakartaEE10Resource.class

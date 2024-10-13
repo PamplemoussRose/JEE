@@ -1,0 +1,13 @@
+13-Oct-2024 15:09:19.905 INFO [main] org.apache.catalina.core.StandardServer.await Une commande d'arrêt valide a été reçue sur le port d'arrêt, arrêt de l'instance du serveur
+13-Oct-2024 15:09:19.941 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+13-Oct-2024 15:09:20.238 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+13-Oct-2024 15:09:20.461 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc L'application web [gestionnotes] a enregistré un pilote JDBC [com.mysql.cj.jdbc.Driver], mais ne l'a pas désenregistré avant l'arrêt de l'application.  Pour éviter une fuite de mémoire, le pilote JDBC a été désenregistré de force.
+13-Oct-2024 15:09:20.467 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads L'application web [gestionnotes] semble avoir démarré un thread nommé [mysql-cj-abandoned-connection-cleanup] mais ne l'a pas arrêté, ce qui va probablement créer une fuite de mémoire ; la trace du thread est : 
+ java.base@11.0.23/java.lang.Object.wait(Native Method)
+ java.base@11.0.23/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:84)
+ java.base@11.0.23/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.23/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.23/java.lang.Thread.run(Thread.java:834)
+13-Oct-2024 15:09:20.475 INFO [main] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+13-Oct-2024 15:09:20.630 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]

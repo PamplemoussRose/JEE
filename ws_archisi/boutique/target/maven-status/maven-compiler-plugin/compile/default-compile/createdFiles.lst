@@ -1,0 +1,6 @@
+fr\univtours\polytech\boutique\JakartaRestConfiguration.class
+fr\univtours\polytech\boutique\business\StoreBusinessImpl.class
+fr\univtours\polytech\boutique\resources\JakartaEE10Resource.class
+fr\univtours\polytech\boutique\business\StoreBusiness.class
+fr\univtours\polytech\boutique\model\CartBean.class
+fr\univtours\polytech\boutique\controller\StoreServlet.class

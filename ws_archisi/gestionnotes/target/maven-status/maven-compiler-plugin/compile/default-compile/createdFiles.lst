@@ -1,0 +1,15 @@
+fr\univtours\polytech\gestionnotes\dao\StudentDao.class
+fr\univtours\polytech\gestionnotes\dao\NoteDaoImpl.class
+fr\univtours\polytech\gestionnotes\servlet\ModifyNoteServlet.class
+fr\univtours\polytech\gestionnotes\servlet\NewNoteServlet.class
+fr\univtours\polytech\gestionnotes\dao\StudentDaoImpl.class
+fr\univtours\polytech\gestionnotes\model\StudentBean.class
+fr\univtours\polytech\gestionnotes\JakartaRestConfiguration.class
+fr\univtours\polytech\gestionnotes\dao\NoteDao.class
+fr\univtours\polytech\gestionnotes\dao\ConnectionDB.class
+fr\univtours\polytech\gestionnotes\model\NoteBean.class
+fr\univtours\polytech\gestionnotes\resources\JakartaEE10Resource.class
+fr\univtours\polytech\gestionnotes\servlet\HomeServelt.class
+fr\univtours\polytech\gestionnotes\model\ResultBean.class
+fr\univtours\polytech\gestionnotes\business\NoteBusinessImpl.class
+fr\univtours\polytech\gestionnotes\business\NoteBusiness.class
