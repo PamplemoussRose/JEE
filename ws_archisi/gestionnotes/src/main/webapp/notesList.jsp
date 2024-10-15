@@ -34,9 +34,6 @@
                 <form action="add" method="get">
                     <input type="submit" value="Ajout Note">
                 </form>
-                <form action="modify" method="get">
-                    <input type="submit" value="Modification Note">
-                </form>
             </section>
         </body>
 

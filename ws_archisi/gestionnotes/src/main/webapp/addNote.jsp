@@ -26,9 +26,6 @@
                 <form action="home" method="get">
                     <input type="submit" value="Home">
                 </form>
-                <form action="modify" method="get">
-                    <input type="submit" value="Modification Note">
-                </form>
             </section>
         </body>
 
