@@ -13,16 +13,16 @@
             <section>
                 <h1>Liste des notes</h1>
                 <table border=1>
-                    <tr>
+                    <tr style="background-color: lightgray;">
                         <th>Prénom</th>
                         <th>Nom</th>
                         <th>Note</th>
                     </tr>
                     <c:forEach items="${requestScope.LISTE_NOTES}" var="note">
-                        <tr>
+                        <tr onclick="window.location.href='modify?firstName=${note.getStudentBean().firstName}&name=${note.getStudentBean().name}&note=${note.getNoteBean().note}'">
                             <td>${note.getStudentBean().firstName}</td>
                             <td>${note.getStudentBean().name}</td>
-                            <td>${note.getNoteBean().note}
+                            <td>${note.getNoteBean().note}</td>
                         </tr>
                     </c:forEach>
                 </table>
@@ -33,9 +33,6 @@
             <section>
                 <form action="add" method="get">
                     <input type="submit" value="Ajout Note">
-                </form>
-                <form action="modify" method="get">
-                    <input type="submit" value="Modification Note">
                 </form>
             </section>
         </body>

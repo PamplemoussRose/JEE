@@ -17,7 +17,7 @@
                     <input type="number" name="num" id="num" min="0" required>
 
                     <label for="note">Note de l'étudiant</label>
-                    <input type="number" name="note" id="note" min="0" required>
+                    <input type="number" name="note" id="note" min="0" max="20" required>
 
                     <input type="submit" value="Ajouter la note">
                 </form>
@@ -25,9 +25,6 @@
             <section>
                 <form action="home" method="get">
                     <input type="submit" value="Home">
-                </form>
-                <form action="modify" method="get">
-                    <input type="submit" value="Modification Note">
                 </form>
             </section>
         </body>

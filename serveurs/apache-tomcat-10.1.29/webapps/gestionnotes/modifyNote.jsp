@@ -7,6 +7,14 @@
             <meta charset="ISO-8859-1">
             <title>Gestion des notes</title>
             <link rel="stylesheet" href="styles.css">
+            <script>
+                window.onload = function() {
+                  const params = new URLSearchParams(window.location.search);
+                  document.getElementById('firstName').value = params.get('firstName') || '';
+                  document.getElementById('name').value = params.get('name') || '';
+                  document.getElementById('note').value = params.get('note') || '';
+                };
+              </script>
         </head>
 
         <body>
@@ -20,7 +28,7 @@
                     <input type="text" name="name" id="name" required>
 
                     <label for="note">Note de l'étudiant</label>
-                    <input type="number" name="note" id="note" min="0" required>
+                    <input type="number" name="note" id="note" min="0" max="20" required>
 
                     <input type="submit" value="Modifier la ligne">
                 </form>

@@ -1,9 +1,11 @@
 package fr.univtours.polytech.gestionnotes.servlet;
 
 import java.io.IOException;
+import java.sql.ResultSet;
 
 import fr.univtours.polytech.gestionnotes.business.NoteBusiness;
 import fr.univtours.polytech.gestionnotes.business.NoteBusinessImpl;
+import fr.univtours.polytech.gestionnotes.model.ResultBean;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -33,7 +35,9 @@ public class ModifyNoteServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("notesList.jsp");
-        dispatcher.forward(request, response);
+        
+        
+
+        response.sendRedirect("home");
     }
 }
