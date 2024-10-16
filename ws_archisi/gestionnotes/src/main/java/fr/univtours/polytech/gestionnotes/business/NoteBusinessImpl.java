@@ -30,9 +30,9 @@ public class NoteBusinessImpl implements NoteBusiness {
         for (NoteBean noteBean : notes) {
             ResultBean resultBean = new ResultBean();
             resultBean.setNoteBean(noteBean);
-            System.out.println(noteBean.getIdStudent() + " - " + noteBean.getNote());
+            //System.out.println(noteBean.getIdStudent() + " - " + noteBean.getNote());
             resultBean.setStudentBean(this.studentDAO.getStudent(noteBean.getIdStudent()));
-            System.out.println(resultBean.getStudentBean().getFirstName() + " - " + resultBean.getNoteBean().getNote());
+            //System.out.println(resultBean.getStudentBean().getFirstName() + " - " + resultBean.getNoteBean().getNote());
             results.add(resultBean);
         }
         return results;

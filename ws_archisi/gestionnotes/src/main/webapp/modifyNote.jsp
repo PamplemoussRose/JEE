@@ -28,7 +28,7 @@
                     <input type="text" name="name" id="name" required>
 
                     <label for="note">Note de l'étudiant</label>
-                    <input type="number" name="note" id="note" min="0" max="20" required>
+                    <input type="number" name="note" id="note" min="0" max="20" step="0.1" required>
 
                     <input type="submit" value="Modifier la ligne">
                 </form>

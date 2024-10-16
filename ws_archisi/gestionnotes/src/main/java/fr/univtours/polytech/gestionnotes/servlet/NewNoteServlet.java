@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "newNoteServlet", urlPatterns = { "/add" })
+@WebServlet(name = "newNoteServlet", urlPatterns = { "/addNote" })
 public class NewNoteServlet extends HttpServlet {
     // Dépendances vers les différents services métiers utiles.
     // Il n'y en a qu'un seul ici.

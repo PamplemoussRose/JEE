@@ -53,7 +53,7 @@ public class StudentDaoImpl implements StudentDao {
             st = connection.prepareStatement(sql);
             st.setString(1, student.getName());
             st.setString(2, student.getFirstName());
-            st.executeQuery();
+            st.execute();
         } catch (Exception e) {
             // S'il y a eu un problème, on le fait remonter.
             throw new RuntimeException(e);
@@ -82,7 +82,7 @@ public class StudentDaoImpl implements StudentDao {
             st.setString(1, student.getName());
             st.setString(2, student.getFirstName());
             st.setInt(3, student.getIdStudent());
-            st.executeQuery();
+            st.executeUpdate();
         } catch (Exception e) {
             // S'il y a eu un problème, on le fait remonter.
             throw new RuntimeException(e);

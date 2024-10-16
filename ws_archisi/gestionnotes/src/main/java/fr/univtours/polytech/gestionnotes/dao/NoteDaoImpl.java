@@ -55,7 +55,7 @@ public class NoteDaoImpl implements NoteDao {
             st = connection.prepareStatement(sqlInsert);
             st.setInt(1, note.getIdStudent());
             st.setDouble(2, note.getNote());
-            st.executeUpdate();
+            st.execute();
         } catch (Exception e) {
             // S'il y a eu un problème, on le fait remonter.
             throw new RuntimeException(e);

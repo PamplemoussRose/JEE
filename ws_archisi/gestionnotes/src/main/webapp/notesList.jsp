@@ -7,6 +7,21 @@
             <meta charset="ISO-8859-1">
             <title>Gestion des notes</title>
             <link rel="stylesheet" href="styles.css">
+            <script>
+                // Fonction pour définir un cookie
+                function setCookie(cname, cvalue) {
+                    document.cookie = cname + "=" + cvalue + ";path=/";
+                }
+
+                // Fonction appelée lors du clic sur une ligne de note
+                function handleNoteClick(idNote, firstName, name, note) {
+                    // Définir l'ID de la note dans un cookie
+                    setCookie('idNote', idNote); // Le cookie expire après 1 jour
+
+                    // Rediriger vers la page de modification
+                    window.location.href = "modify?firstName="+firstName+"&name="+name+"&note="+note;
+                }
+            </script>
         </head>
 
         <body>
@@ -19,7 +34,8 @@
                         <th>Note</th>
                     </tr>
                     <c:forEach items="${requestScope.LISTE_NOTES}" var="note">
-                        <tr onclick="window.location.href='modify?firstName=${note.getStudentBean().firstName}&name=${note.getStudentBean().name}&note=${note.getNoteBean().note}'">
+                        <tr
+                            onclick="handleNoteClick('${note.getNoteBean().idNote}', '${note.getStudentBean().firstName}', '${note.getStudentBean().name}', '${note.getNoteBean().note}')">
                             <td>${note.getStudentBean().firstName}</td>
                             <td>${note.getStudentBean().name}</td>
                             <td>${note.getNoteBean().note}</td>
@@ -31,8 +47,11 @@
                 </c:if>
             </section>
             <section>
-                <form action="add" method="get">
+                <form action="addNote" method="get">
                     <input type="submit" value="Ajout Note">
+                </form>
+                <form action="addStudent" method="get">
+                    <input type="submit" value="Ajout Eleve">
                 </form>
             </section>
         </body>

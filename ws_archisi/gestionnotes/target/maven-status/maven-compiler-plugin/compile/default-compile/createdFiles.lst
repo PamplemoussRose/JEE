@@ -12,4 +12,5 @@ fr\univtours\polytech\gestionnotes\resources\JakartaEE10Resource.class
 fr\univtours\polytech\gestionnotes\servlet\HomeServelt.class
 fr\univtours\polytech\gestionnotes\model\ResultBean.class
 fr\univtours\polytech\gestionnotes\business\NoteBusinessImpl.class
+fr\univtours\polytech\gestionnotes\servlet\NewStudentServlet.class
 fr\univtours\polytech\gestionnotes\business\NoteBusiness.class

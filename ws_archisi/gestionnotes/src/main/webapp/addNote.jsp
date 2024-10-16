@@ -12,7 +12,7 @@
         <body>
             <section>
                 <h1>Ajout d'une note</h1>
-                <form action="add" method="post">
+                <form action="addNote" method="post">
                     <label for="num">Numero de l'étudiant</label>
                     <input type="number" name="num" id="num" min="0" required>
 
@@ -25,6 +25,9 @@
             <section>
                 <form action="home" method="get">
                     <input type="submit" value="Home">
+                </form>
+                <form action="addStudent" method="get">
+                    <input type="submit" value="Ajout Eleve">
                 </form>
             </section>
         </body>
