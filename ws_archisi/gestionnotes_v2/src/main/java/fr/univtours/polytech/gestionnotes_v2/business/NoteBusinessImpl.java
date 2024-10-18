@@ -4,23 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fr.univtours.polytech.gestionnotes_v2.dao.NoteDao;
-import fr.univtours.polytech.gestionnotes_v2.dao.NoteDaoImpl;
 import fr.univtours.polytech.gestionnotes_v2.dao.StudentDao;
-import fr.univtours.polytech.gestionnotes_v2.dao.StudentDaoImpl;
 import fr.univtours.polytech.gestionnotes_v2.model.NoteBean;
 import fr.univtours.polytech.gestionnotes_v2.model.ResultBean;
 import fr.univtours.polytech.gestionnotes_v2.model.StudentBean;
+import jakarta.ejb.Stateless;
+import jakarta.inject.Inject;
 
+@Stateless
 public class NoteBusinessImpl implements NoteBusiness {
     // Dépendances vers les différents DAO utiles pour ce service métier.
+    @Inject
     private NoteDao noteDao;
+    @Inject
     private StudentDao studentDAO;
-
-    public NoteBusinessImpl() {
-        // Instanciation des différentes dépendances.
-        this.noteDao = new NoteDaoImpl();
-        this.studentDAO = new StudentDaoImpl();
-    }
 
     @Override
     public List<ResultBean> getResultsList() {

@@ -132,10 +132,22 @@
                     <driver>h2</driver>
                     <security user-name="sa" password="sa"/>
                 </datasource>
+                <datasource jndi-name="java:/MySqlGestionNotesJPA" pool-name="MySqlGestionNotesJPA">
+                    <connection-url>jdbc:mysql://localhost:3307/gestion_notes</connection-url>
+                    <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
+                    <driver>mysql</driver>
+                    <security user-name="root"/>
+                    <validation>
+                        <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker"/>
+                        <validate-on-match>true</validate-on-match>
+                        <exception-sorter class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter"/>
+                    </validation>
+                </datasource>
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
+                    <driver name="mysql" module="com.mysql"/>
                 </drivers>
             </datasources>
         </subsystem>

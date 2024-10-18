@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.List;
 
 import fr.univtours.polytech.gestionnotes_v2.business.NoteBusiness;
-import fr.univtours.polytech.gestionnotes_v2.business.NoteBusinessImpl;
 import fr.univtours.polytech.gestionnotes_v2.model.ResultBean;
+import jakarta.inject.Inject;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -18,13 +18,8 @@ import jakarta.servlet.http.HttpServletResponse;
 public class ModifyNoteServlet extends HttpServlet {
     // Dépendances vers les différents services métiers utiles.
     // Il n'y en a qu'un seul ici.
+    @Inject
     private NoteBusiness business;
-
-    @Override
-    public void init() throws ServletException {
-        // Instanciation de ces (cette ici) dépendances.
-        this.business = new NoteBusinessImpl();
-    }
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
