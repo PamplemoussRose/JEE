@@ -1,0 +1,13 @@
+section{
+    border: 1px solid #000; 
+    margin: 5px;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin: 10px;
+}

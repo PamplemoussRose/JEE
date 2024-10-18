@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import fr.univtours.polytech.gestionnotes.business.NoteBusiness;
 import fr.univtours.polytech.gestionnotes.business.NoteBusinessImpl;
-import fr.univtours.polytech.gestionnotes.model.NoteBean;
 import fr.univtours.polytech.gestionnotes.model.StudentBean;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
