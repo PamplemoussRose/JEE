@@ -31,6 +31,46 @@ public class ModifyNoteServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+
+        String method = request.getParameter("_method");
+        if ("delete".equalsIgnoreCase(method)) {
+            doDelete(request, response); // Appel de la méthode doDelete
+        } else {
+
+            Cookie[] cookies = request.getCookies();
+            String idNote = null;
+
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("idNote")) {
+                    idNote = cookie.getValue(); // Récupérer la valeur du cookie "idNote"
+                    break;
+                }
+            }
+
+            List<ResultBean> results = business.getResultsList();
+            ResultBean resultAct = null;
+
+            for (ResultBean result : results) {
+                if (result.getNoteBean().getIdNote().equals(Integer.parseInt(idNote))) {
+                    resultAct = result;
+                    break;
+                }
+            }
+
+            resultAct.getNoteBean().setNote(Float.parseFloat(request.getParameter("note")));
+            resultAct.getStudentBean().setFirstName(request.getParameter("firstName"));
+            resultAct.getStudentBean().setName(request.getParameter("name"));
+
+            business.updateResult(resultAct);
+
+            response.sendRedirect("home");
+        }
+    }
+
+    @Override
+    protected void doDelete(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        // Recupere l'ID de la note
         Cookie[] cookies = request.getCookies();
         String idNote = null;
 
@@ -41,23 +81,21 @@ public class ModifyNoteServlet extends HttpServlet {
             }
         }
 
+        // Recupere le bean de la note
         List<ResultBean> results = business.getResultsList();
         ResultBean resultAct = null;
 
-        for (ResultBean result : results){
-            if (result.getNoteBean().getIdNote().equals(Integer.parseInt(idNote))){
+        for (ResultBean result : results) {
+            if (result.getNoteBean().getIdNote().equals(Integer.parseInt(idNote))) {
                 resultAct = result;
                 break;
             }
         }
-        System.out.println(request.getParameter("note")+" - "+request.getParameter("firstName")+" - "+request.getParameter("name"));
 
-        resultAct.getNoteBean().setNote(Float.parseFloat(request.getParameter("note")));
-        resultAct.getStudentBean().setFirstName(request.getParameter("firstName"));
-        resultAct.getStudentBean().setName(request.getParameter("name"));
+        // Fait le traitement sur la note
+        business.deleteNote(resultAct.getNoteBean());
 
-        business.updateResult(resultAct);
-
+        // Redirige vers la page 'home'
         response.sendRedirect("home");
     }
 }

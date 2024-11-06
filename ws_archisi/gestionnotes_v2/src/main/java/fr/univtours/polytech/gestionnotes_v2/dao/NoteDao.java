@@ -10,4 +10,6 @@ public interface NoteDao {
     public void insertNote(NoteBean note);
 
     public void updateNote(NoteBean note);
+
+    public void deleteNote(NoteBean note);
 }

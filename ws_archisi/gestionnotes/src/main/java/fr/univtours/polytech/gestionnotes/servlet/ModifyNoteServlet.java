@@ -49,13 +49,14 @@ public class ModifyNoteServlet extends HttpServlet {
         List<ResultBean> results = business.getResultsList();
         ResultBean resultAct = null;
 
-        for (ResultBean result : results){
-            if (result.getNoteBean().getIdNote().equals(Integer.parseInt(idNote))){
+        for (ResultBean result : results) {
+            if (result.getNoteBean().getIdNote().equals(Integer.parseInt(idNote))) {
                 resultAct = result;
                 break;
             }
         }
-        System.out.println(request.getParameter("note")+" - "+request.getParameter("firstName")+" - "+request.getParameter("name"));
+        System.out.println(request.getParameter("note") + " - " + request.getParameter("firstName") + " - "
+                + request.getParameter("name"));
 
         resultAct.getNoteBean().setNote(Float.parseFloat(request.getParameter("note")));
         resultAct.getStudentBean().setFirstName(request.getParameter("firstName"));

@@ -27,9 +27,10 @@ public class NoteBusinessImpl implements NoteBusiness {
         for (NoteBean noteBean : notes) {
             ResultBean resultBean = new ResultBean();
             resultBean.setNoteBean(noteBean);
-            //System.out.println(noteBean.getIdStudent() + " - " + noteBean.getNote());
+            // System.out.println(noteBean.getIdStudent() + " - " + noteBean.getNote());
             resultBean.setStudentBean(this.studentDAO.getStudent(noteBean.getIdStudent()));
-            //System.out.println(resultBean.getStudentBean().getFirstName() + " - " + resultBean.getNoteBean().getNote());
+            // System.out.println(resultBean.getStudentBean().getFirstName() + " - " +
+            // resultBean.getNoteBean().getNote());
             results.add(resultBean);
         }
         return results;
@@ -52,14 +53,19 @@ public class NoteBusinessImpl implements NoteBusiness {
     }
 
     @Override
+    public void deleteNote(NoteBean note) {
+        this.noteDao.deleteNote(note);
+    }
+
+    @Override
     public Float computeMean(List<ResultBean> resultsList) {
         List<ResultBean> results = getResultsList();
-        if (results.size() != 0){
+        if (results.size() != 0) {
             float sum = 0;
             for (Integer index = 0; index < results.size(); index++) {
                 sum += results.get(index).getNoteBean().getNote();
             }
-            return sum/results.size();
+            return sum / results.size();
         } else {
             return null;
         }

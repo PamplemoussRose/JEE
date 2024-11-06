@@ -32,6 +32,10 @@
 
                     <input type="submit" value="Modifier la ligne">
                 </form>
+                <form action="modify" method="post">
+                    <input type="hidden" name="_method" value="delete">
+                    <input type="submit" value="Supprimer Note">
+                </form>
             </section>
             <section>
                 <form action="home" method="get">

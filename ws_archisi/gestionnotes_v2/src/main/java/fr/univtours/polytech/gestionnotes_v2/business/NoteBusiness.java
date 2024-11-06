@@ -15,5 +15,7 @@ public interface NoteBusiness {
 
     public void updateResult(ResultBean result);
 
+    public void deleteNote(NoteBean note);
+
     public Float computeMean(List<ResultBean> notesList);
 }

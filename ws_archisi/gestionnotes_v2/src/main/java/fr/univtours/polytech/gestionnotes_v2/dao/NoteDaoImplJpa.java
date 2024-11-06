@@ -25,12 +25,18 @@ public class NoteDaoImplJpa implements NoteDao {
 
     @Override
     public void updateNote(NoteBean note) {
-        String sql = "update NOTE_JPA set ID_STUDENT = "+note.getIdStudent()+", NOTE = "+note.getNote()+" where NOTE_JPA.ID_NOTE = "+note.getIdNote()+";";
-        em.createNativeQuery(sql);
+        String sql = "update NOTE_JPA set ID_STUDENT = "+note.getIdStudent()+", NOTE = "+note.getNote()+" where NOTE_JPA.ID_NOTE = "+note.getIdNote();
+        em.createNativeQuery(sql).executeUpdate();
     }
 
     @Override
     public void insertNote(NoteBean note) {
         em.persist(note);
+    }
+
+    @Override
+    public void deleteNote(NoteBean note){
+        String slq = "delete from NOTE_JPA where ID_NOTE = "+note.getIdNote();
+        em.createNativeQuery(slq).executeUpdate();
     }
 }
