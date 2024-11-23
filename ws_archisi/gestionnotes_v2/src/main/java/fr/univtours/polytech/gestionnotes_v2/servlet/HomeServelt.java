@@ -21,8 +21,7 @@ public class HomeServelt extends HttpServlet {
     private NoteBusiness business;
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<ResultBean> results = business.getResultsList();
         request.setAttribute("LISTE_NOTES", results);
         if (results.size() != 0) {

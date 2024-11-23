@@ -132,7 +132,7 @@
                     <driver>h2</driver>
                     <security user-name="sa" password="sa"/>
                 </datasource>
-                <datasource jndi-name="java:/MySqlGestionNotesJPA" pool-name="MySqlGestionNotesJPA">
+                <datasource jndi-name="java:/MySqlGestionNotesJPA" pool-name="MySqlGestionNotesJPA" enabled="false">
                     <connection-url>jdbc:mysql://localhost:3307/gestion_notes</connection-url>
                     <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
                     <driver>mysql</driver>
@@ -143,7 +143,7 @@
                         <exception-sorter class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter"/>
                     </validation>
                 </datasource>
-                <datasource jndi-name="java:/TpNote1" pool-name="TpNote1">
+                <datasource jndi-name="java:/TpNote1" pool-name="TpNote1" enabled="false">
                     <connection-url>jdbc:mysql://localhost:3307/tp_note_1</connection-url>
                     <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
                     <driver>mysql</driver>
