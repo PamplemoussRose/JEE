@@ -154,6 +154,7 @@
                         <exception-sorter class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter"/>
                     </validation>
                 </datasource>
+
                 <datasource jndi-name="java:/LocationDB" pool-name="LocationDB">
                     <connection-url>jdbc:mysql://localhost:3306/location_db</connection-url>
                     <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
@@ -165,6 +166,7 @@
                         <exception-sorter class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLExceptionSorter"/>
                     </validation>
                 </datasource>
+                
                 <drivers>
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
