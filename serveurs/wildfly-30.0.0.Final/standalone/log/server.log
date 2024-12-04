@@ -1,8 +1,8 @@
-2024-12-02 19:38:14,190 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
-2024-12-02 19:38:15,277 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
-2024-12-02 19:38:15,292 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
-2024-12-02 19:38:15,469 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) starting
-2024-12-02 19:38:15,477 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+2024-12-04 18:43:45,385 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
+2024-12-04 18:43:46,353 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
+2024-12-04 18:43:46,374 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2024-12-04 18:43:46,523 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) starting
+2024-12-04 18:43:46,537 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
 	awt.toolkit = sun.awt.windows.WToolkit
 	file.encoding = Cp1252
 	file.separator = \
@@ -13,7 +13,7 @@
 	java.class.version = 55.0
 	java.home = C:\JEE\JDK\jdk-11.0.23
 	java.io.tmpdir = C:\Users\robin\AppData\Local\Temp\
-	java.library.path = C:\JEE\JDK\jdk-11.0.23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\JEE\JDK\jdk-11.0.23\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PHP;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\JEE\apache-maven-3.9.9\bin;C:\Users\robin\AppData\Local\Android\Sdk\platform-tools;C:\JEE\JDK\jdk-11.0.23\bin;C:\Users\robin\AppData\Local\Microsoft\WindowsApps;C:\Users\robin\AppData\Local\GitHubDesktop\bin;C:\Users\robin\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.
+	java.library.path = C:\JEE\JDK\jdk-11.0.23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\JEE\JDK\jdk-11.0.23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\JEE\apache-maven-3.9.9\bin;C:\Users\robin\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\robin\AppData\Local\Programs\Python\Python313\;C:\Users\robin\AppData\Local\Programs\Python\Launcher\;C:\Users\robin\AppData\Local\Microsoft\WindowsApps;C:\Users\robin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\robin\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.3\bin;;C:\Program Files\JetBrains\WebStorm 2024.3\bin;;C:\Program Files\JetBrains\PyCharm 2024.3\bin;;.
 	java.net.preferIPv4Stack = true
 	java.runtime.name = Java(TM) SE Runtime Environment
 	java.runtime.version = 11.0.23+7-LTS-222
@@ -86,55 +86,55 @@
 	user.script = 
 	user.timezone = Europe/Paris
 	user.variant = 
-2024-12-02 19:38:15,482 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=rsp:WildFly 27+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=c:\JEE\serveurs\wildfly-30.0.0.Final -Djboss.server.base.dir=c:\JEE\serveurs\wildfly-30.0.0.Final\standalone -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.http.port=8080 
-2024-12-02 19:38:16,583 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.2.Final
-2024-12-02 19:38:17,450 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 36) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2024-12-02 19:38:17,505 WARN  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0003: Deployment of 'td9.war' requested, but the deployment is not present
-2024-12-02 19:38:17,809 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2024-12-02 19:38:17,830 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.11.Final
-2024-12-02 19:38:17,841 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.11.Final
-2024-12-02 19:38:17,892 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
-2024-12-02 19:38:17,919 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
-2024-12-02 19:38:17,922 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
-2024-12-02 19:38:17,972 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2024-12-02 19:38:17,980 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
-2024-12-02 19:38:17,980 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.5.Final
-2024-12-02 19:38:17,997 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "location.war" (runtime-name: "location.war")
-2024-12-02 19:38:18,005 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
-2024-12-02 19:38:18,025 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
-2024-12-02 19:38:18,029 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
-2024-12-02 19:38:18,054 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
-2024-12-02 19:38:18,072 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
-2024-12-02 19:38:18,079 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.4.Final)
-2024-12-02 19:38:18,101 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
-2024-12-02 19:38:18,119 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
-2024-12-02 19:38:18,163 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
-2024-12-02 19:38:18,187 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.3.10.Final starting
-2024-12-02 19:38:18,204 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
-2024-12-02 19:38:18,244 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 9.1)
-2024-12-02 19:38:18,322 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql
-2024-12-02 19:38:18,370 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY00023: KeyStore file 'c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
-2024-12-02 19:38:18,444 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'c:\JEE\serveurs\wildfly-30.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2024-12-02 19:38:18,478 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
-2024-12-02 19:38:18,505 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
-2024-12-02 19:38:18,510 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
-2024-12-02 19:38:18,592 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.27.Final
-2024-12-02 19:38:18,919 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2024-12-02 19:38:19,053 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
-2024-12-02 19:38:19,104 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\deployments
-2024-12-02 19:38:19,157 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/LocationDB]
-2024-12-02 19:38:19,160 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2024-12-02 19:38:19,293 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
-2024-12-02 19:38:19,296 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
-2024-12-02 19:38:19,298 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
-2024-12-02 19:38:19,319 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2024-12-02 19:38:19,332 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2024-12-02 19:38:19,490 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
-2024-12-02 19:38:20,217 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for LocationApp
-2024-12-02 19:38:20,374 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
-2024-12-02 19:38:20,545 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment location.war
-2024-12-02 19:38:20,885 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 8.0.1.Final
-2024-12-02 19:38:21,166 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LocationBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+2024-12-04 18:43:46,544 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=rsp:WildFly 27+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=c:\JEE\serveurs\wildfly-30.0.0.Final -Djboss.server.base.dir=c:\JEE\serveurs\wildfly-30.0.0.Final\standalone -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.http.port=8080 
+2024-12-04 18:43:47,472 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.2.Final
+2024-12-04 18:43:48,069 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 32) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2024-12-04 18:43:48,109 WARN  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0003: Deployment of 'td9.war' requested, but the deployment is not present
+2024-12-04 18:43:48,652 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2024-12-04 18:43:48,680 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.11.Final
+2024-12-04 18:43:48,691 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.11.Final
+2024-12-04 18:43:48,741 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2024-12-04 18:43:48,743 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2024-12-04 18:43:48,741 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2024-12-04 18:43:48,743 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2024-12-04 18:43:48,743 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.5.Final
+2024-12-04 18:43:48,749 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2024-12-04 18:43:48,761 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2024-12-04 18:43:48,767 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2024-12-04 18:43:48,766 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2024-12-04 18:43:48,770 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2024-12-04 18:43:48,795 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2024-12-04 18:43:48,798 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.4.Final)
+2024-12-04 18:43:48,818 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "location.war" (runtime-name: "location.war")
+2024-12-04 18:43:48,848 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
+2024-12-04 18:43:48,854 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 48 IO threads with 384 max task threads based on your 24 available processors
+2024-12-04 18:43:48,901 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 9.1)
+2024-12-04 18:43:48,903 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.3.10.Final starting
+2024-12-04 18:43:48,905 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2024-12-04 18:43:48,922 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2024-12-04 18:43:48,925 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = mysql
+2024-12-04 18:43:49,003 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'c:\JEE\serveurs\wildfly-30.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2024-12-04 18:43:49,025 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file 'c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2024-12-04 18:43:49,047 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2024-12-04 18:43:49,052 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 96 (per class), which is derived from the number of CPUs on this host.
+2024-12-04 18:43:49,052 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 384 (per class), which is derived from thread worker pool sizing.
+2024-12-04 18:43:49,263 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2024-12-04 18:43:49,338 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.27.Final
+2024-12-04 18:43:49,415 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2024-12-04 18:43:49,480 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\deployments
+2024-12-04 18:43:49,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:/LocationDB]
+2024-12-04 18:43:49,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2024-12-04 18:43:51,586 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2024-12-04 18:43:51,586 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2024-12-04 18:43:51,593 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2024-12-04 18:43:51,627 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2024-12-04 18:43:51,632 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2024-12-04 18:43:51,768 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
+2024-12-04 18:43:52,111 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for LocationApp
+2024-12-04 18:43:52,263 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 18:43:52,417 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment location.war
+2024-12-04 18:43:52,533 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 8.0.1.Final
+2024-12-04 18:43:52,678 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'LocationBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
 
 	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
 	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
@@ -145,7 +145,7 @@
 	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
 	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
 
-2024-12-02 19:38:21,166 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'DataBaseInitializer' in deployment unit 'deployment "location.war"' are as follows:
+2024-12-04 18:43:52,678 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'DataBaseInitializer' in deployment unit 'deployment "location.war"' are as follows:
 
 	java:global/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
 	java:app/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
@@ -154,7 +154,7 @@
 	java:app/location/DataBaseInitializer
 	java:module/DataBaseInitializer
 
-2024-12-02 19:38:21,166 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LocationDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+2024-12-04 18:43:52,680 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'LocationDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
 
 	java:global/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
 	java:app/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
@@ -163,175 +163,50 @@
 	java:app/location/LocationDaoImpl
 	java:module/LocationDaoImpl
 
-2024-12-02 19:38:21,389 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-12-02 19:38:21,570 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
-2024-12-02 19:38:21,617 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-4) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
-2024-12-02 19:38:21,667 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 5.1.2 (Final)
-2024-12-02 19:38:22,031 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
-2024-12-02 19:38:22,066 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 78) HHH000204: Processing PersistenceUnitInfo [name: LocationApp]
-2024-12-02 19:38:22,178 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 78) HHH000412: Hibernate ORM core version 6.2.13.Final
-2024-12-02 19:38:22,183 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 78) HHH000406: Using bytecode reflection optimizer
-2024-12-02 19:38:22,865 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 78) HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause'
-2024-12-02 19:38:22,898 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02 19:38:23,035 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 78) Envers integration enabled? : true
-2024-12-02 19:38:23,254 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
-2024-12-02 19:38:24,152 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
-2024-12-02 19:38:24,816 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
-2024-12-02 19:38:26,182 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 80) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class fr.univtours.polytech.location.rest.WebApp
-2024-12-02 19:38:26,234 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: '/location' for server 'default-server'
-2024-12-02 19:38:26,323 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "location.war" (runtime-name : "location.war")
-2024-12-02 19:38:26,400 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2024-12-02 19:38:26,413 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2024-12-02 19:38:26,414 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2024-12-02 19:38:26,418 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) started in 12706ms - Started 479 of 678 services (323 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
-2024-12-02 19:53:35,853 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.2.Final
-2024-12-02 19:53:36,528 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.2.Final
-2024-12-02 19:53:36,545 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
-2024-12-02 19:53:36,670 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) starting
-2024-12-02 19:53:36,670 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
-	awt.toolkit = sun.awt.windows.WToolkit
-	file.encoding = Cp1252
-	file.separator = \
-	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
-	java.awt.headless = true
-	java.awt.printerjob = sun.awt.windows.WPrinterJob
-	java.class.path = c:\JEE\serveurs\wildfly-30.0.0.Final/jboss-modules.jar
-	java.class.version = 55.0
-	java.home = C:\JEE\JDK\jdk-11.0.23
-	java.io.tmpdir = C:\Users\robin\AppData\Local\Temp\
-	java.library.path = C:\JEE\JDK\jdk-11.0.23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\JEE\JDK\jdk-11.0.23\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\PHP;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\JEE\apache-maven-3.9.9\bin;C:\Users\robin\AppData\Local\Android\Sdk\platform-tools;C:\JEE\JDK\jdk-11.0.23\bin;C:\Users\robin\AppData\Local\Microsoft\WindowsApps;C:\Users\robin\AppData\Local\GitHubDesktop\bin;C:\Users\robin\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.3\bin;;.
-	java.net.preferIPv4Stack = true
-	java.runtime.name = Java(TM) SE Runtime Environment
-	java.runtime.version = 11.0.23+7-LTS-222
-	java.specification.maintenance.version = 2
-	java.specification.name = Java Platform API Specification
-	java.specification.vendor = Oracle Corporation
-	java.specification.version = 11
-	java.util.logging.manager = org.jboss.logmanager.LogManager
-	java.vendor = Oracle Corporation
-	java.vendor.url = https://openjdk.java.net/
-	java.vendor.url.bug = https://bugreport.java.com/bugreport/
-	java.vendor.version = 18.9
-	java.version = 11.0.23
-	java.version.date = 2024-04-16
-	java.vm.compressedOopsMode = 32-bit
-	java.vm.info = mixed mode
-	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
-	java.vm.specification.name = Java Virtual Machine Specification
-	java.vm.specification.vendor = Oracle Corporation
-	java.vm.specification.version = 11
-	java.vm.vendor = Oracle Corporation
-	java.vm.version = 11.0.23+7-LTS-222
-	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
-	jboss.bind.address = localhost
-	jboss.bind.address.management = localhost
-	jboss.home.dir = c:\JEE\serveurs\wildfly-30.0.0.Final
-	jboss.host.name = laptop-robin
-	jboss.http.port = 8080
-	jboss.modules.system.pkgs = org.jboss.byteman
-	jboss.node.name = laptop-robin
-	jboss.qualified.host.name = laptop-robin
-	jboss.server.base.dir = c:\JEE\serveurs\wildfly-30.0.0.Final\standalone
-	jboss.server.config.dir = c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration
-	jboss.server.data.dir = c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data
-	jboss.server.log.dir = c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\log
-	jboss.server.name = laptop-robin
-	jboss.server.persist.config = true
-	jboss.server.temp.dir = c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\tmp
-	jdk.debug = release
-	line.separator = 
+2024-12-04 18:43:52,880 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-12-04 18:43:53,019 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 18:43:53,075 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-1) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2024-12-04 18:43:53,127 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 5.1.2 (Final)
+2024-12-04 18:43:53,453 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:43:53,479 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 78) HHH000204: Processing PersistenceUnitInfo [name: LocationApp]
+2024-12-04 18:43:53,567 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 78) HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-12-04 18:43:53,574 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 78) HHH000406: Using bytecode reflection optimizer
+2024-12-04 18:43:54,142 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 78) HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+2024-12-04 18:43:54,169 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 18:43:54,267 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 78) Envers integration enabled? : true
+2024-12-04 18:43:54,485 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:43:55,518 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 18:43:56,110 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 18:43:57,593 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 79) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class fr.univtours.polytech.location.rest.WebApp
+2024-12-04 18:43:57,660 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/location' for server 'default-server'
+2024-12-04 18:43:57,753 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "location.war" (runtime-name : "location.war")
+2024-12-04 18:43:57,808 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2024-12-04 18:43:57,828 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2024-12-04 18:43:57,828 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2024-12-04 18:43:57,830 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) started in 12924ms - Started 479 of 678 services (323 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-12-04 18:54:34,688 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\73\4156303bc036116906cd8a46bb59e4f6d4d80d\content
+2024-12-04 18:54:34,703 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 29) WFLYUT0022: Unregistered web context: '/location' from server 'default-server'
+2024-12-04 18:54:34,763 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:54:34,767 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 85) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@524c8f99
+2024-12-04 18:54:34,772 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:54:34,870 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment location.war (runtime-name: location.war) in 175ms
+2024-12-04 18:54:34,874 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "location.war" (runtime-name: "location.war")
+2024-12-04 18:54:35,647 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for LocationApp
+2024-12-04 18:54:35,728 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 18:54:35,759 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-12-04 18:54:35,766 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment location.war
+2024-12-04 18:54:35,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'LocationBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
 
-	logging.configuration = file:c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\logging.properties
-	module.path = c:\JEE\serveurs\wildfly-30.0.0.Final\modules
-	org.jboss.boot.log.file = c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\log\boot.log
-	org.jboss.logmanager.nocolor = true
-	org.jboss.resolver.warning = true
-	os.arch = amd64
-	os.name = Windows 11
-	os.version = 10.0
-	path.separator = ;
-	program.name = rsp:WildFly 27+
-	sun.arch.data.model = 64
-	sun.boot.library.path = C:\JEE\JDK\jdk-11.0.23\bin
-	sun.cpu.endian = little
-	sun.cpu.isalist = amd64
-	sun.desktop = windows
-	sun.io.unicode.encoding = UnicodeLittle
-	sun.java.command = org.jboss.modules.Main -mp c:\JEE\serveurs\wildfly-30.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml
-	sun.java.launcher = SUN_STANDARD
-	sun.jnu.encoding = Cp1252
-	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
-	sun.os.patch.level = 
-	sun.rmi.dgc.client.gcInterval = 3600000
-	sun.rmi.dgc.server.gcInterval = 3600000
-	user.country = FR
-	user.dir = c:\JEE\serveurs\wildfly-30.0.0.Final\bin
-	user.home = C:\Users\robin
-	user.language = fr
-	user.name = robin
-	user.script = 
-	user.timezone = Europe/Paris
-	user.variant = 
-2024-12-02 19:53:36,685 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=rsp:WildFly 27+ -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=c:\JEE\serveurs\wildfly-30.0.0.Final -Djboss.server.base.dir=c:\JEE\serveurs\wildfly-30.0.0.Final\standalone -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.http.port=8080 
-2024-12-02 19:53:37,614 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.2.2.Final
-2024-12-02 19:53:38,293 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2024-12-02 19:53:38,277 WARN  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0003: Deployment of 'td9.war' requested, but the deployment is not present
-2024-12-02 19:53:38,699 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2024-12-02 19:53:38,731 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.11.Final
-2024-12-02 19:53:38,742 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.11.Final
-2024-12-02 19:53:38,792 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2024-12-02 19:53:38,804 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
-2024-12-02 19:53:38,811 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.5.Final
-2024-12-02 19:53:38,813 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
-2024-12-02 19:53:38,818 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
-2024-12-02 19:53:38,819 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
-2024-12-02 19:53:38,826 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
-2024-12-02 19:53:38,846 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
-2024-12-02 19:53:38,850 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.4.Final)
-2024-12-02 19:53:38,852 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
-2024-12-02 19:53:38,898 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
-2024-12-02 19:53:38,914 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
-2024-12-02 19:53:38,968 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.2)
-2024-12-02 19:53:38,992 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "location.war" (runtime-name: "location.war")
-2024-12-02 19:53:39,074 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
-2024-12-02 19:53:39,090 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
-2024-12-02 19:53:39,101 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.3.10.Final starting
-2024-12-02 19:53:39,112 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 9.1)
-2024-12-02 19:53:39,119 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY00023: KeyStore file 'c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
-2024-12-02 19:53:39,154 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql
-2024-12-02 19:53:39,243 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
-2024-12-02 19:53:39,183 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-6) WFLYELY01084: KeyStore c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
-2024-12-02 19:53:39,334 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'c:\JEE\serveurs\wildfly-30.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2024-12-02 19:53:39,387 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.27.Final
-2024-12-02 19:53:39,464 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
-2024-12-02 19:53:39,464 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
-2024-12-02 19:53:39,658 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2024-12-02 19:53:39,811 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
-2024-12-02 19:53:39,891 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:/LocationDB]
-2024-12-02 19:53:39,891 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2024-12-02 19:53:39,977 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\deployments
-2024-12-02 19:53:40,017 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
-2024-12-02 19:53:40,021 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
-2024-12-02 19:53:40,023 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
-2024-12-02 19:53:40,043 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2024-12-02 19:53:40,066 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2024-12-02 19:53:40,299 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 7.0.0.Final (Apache CXF 4.0.0) 
-2024-12-02 19:53:41,010 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for LocationApp
-2024-12-02 19:53:41,157 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
-2024-12-02 19:53:41,296 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment location.war
-2024-12-02 19:53:41,405 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 8.0.1.Final
-2024-12-02 19:53:41,572 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'LocationBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
-
-	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
-	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
-	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
 	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
 	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
 	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
 	java:jboss/exported/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
 	ejb:/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
 
-2024-12-02 19:53:41,575 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'DataBaseInitializer' in deployment unit 'deployment "location.war"' are as follows:
+2024-12-04 18:54:35,802 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'DataBaseInitializer' in deployment unit 'deployment "location.war"' are as follows:
 
 	java:global/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
 	java:app/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
@@ -340,7 +215,16 @@
 	java:app/location/DataBaseInitializer
 	java:module/DataBaseInitializer
 
-2024-12-02 19:53:41,575 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'LocationDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+2024-12-04 18:54:35,802 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'AddressBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:app/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:module/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:global/location/AddressBusinessImpl
+	java:app/location/AddressBusinessImpl
+	java:module/AddressBusinessImpl
+
+2024-12-04 18:54:35,802 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'LocationDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
 
 	java:global/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
 	java:app/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
@@ -349,24 +233,369 @@
 	java:app/location/LocationDaoImpl
 	java:module/LocationDaoImpl
 
-2024-12-02 19:53:41,786 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 78) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
-2024-12-02 19:53:41,866 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
-2024-12-02 19:53:41,911 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-6) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
-2024-12-02 19:53:41,956 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 5.1.2 (Final)
-2024-12-02 19:53:42,356 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
-2024-12-02 19:53:42,379 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 78) HHH000204: Processing PersistenceUnitInfo [name: LocationApp]
-2024-12-02 19:53:42,476 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 78) HHH000412: Hibernate ORM core version 6.2.13.Final
-2024-12-02 19:53:42,481 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 78) HHH000406: Using bytecode reflection optimizer
-2024-12-02 19:53:42,976 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 78) HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause'
-2024-12-02 19:53:43,021 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-02 19:53:43,157 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 78) Envers integration enabled? : true
-2024-12-02 19:53:43,368 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 78) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
-2024-12-02 19:53:44,155 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
-2024-12-02 19:53:44,870 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 78) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
-2024-12-02 19:53:46,057 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class fr.univtours.polytech.location.rest.WebApp
-2024-12-02 19:53:46,112 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0021: Registered web context: '/location' for server 'default-server'
-2024-12-02 19:53:46,189 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "location.war" (runtime-name : "location.war")
-2024-12-02 19:53:46,256 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2024-12-02 19:53:46,269 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2024-12-02 19:53:46,269 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2024-12-02 19:53:46,278 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 30.0.0.Final (WildFly Core 22.0.1.Final) started in 10856ms - Started 479 of 678 services (323 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2024-12-04 18:54:35,816 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:54:35,817 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 85) HHH000204: Processing PersistenceUnitInfo [name: LocationApp]
+2024-12-04 18:54:35,844 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 85) HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+2024-12-04 18:54:35,845 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 85) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 18:54:35,856 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 85) Envers integration enabled? : true
+2024-12-04 18:54:35,933 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 18:54:35,944 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-5) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2024-12-04 18:54:36,000 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:54:36,050 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 85) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 18:54:36,091 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 85) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 18:54:36,326 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC000001: Failed to start service jboss.deployment.unit."location.war".WeldStartService: org.jboss.msc.service.StartException in service jboss.deployment.unit."location.war".WeldStartService: Failed to start service
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1609)
+	at org.jboss.msc@1.5.2.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1438)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type AddressDao with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private fr.univtours.polytech.location.business.AddressBusinessImpl.addressDao
+  at fr.univtours.polytech.location.business.AddressBusinessImpl.addressDao(AddressBusinessImpl.java:0)
+
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:379)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:294)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:141)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:163)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:533)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:65)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:63)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.core@5.1.2.Final//org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2024-12-04 18:54:36,336 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"location.war\".WeldStartService" => "Failed to start service
+    Caused by: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type AddressDao with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private fr.univtours.polytech.location.business.AddressBusinessImpl.addressDao
+  at fr.univtours.polytech.location.business.AddressBusinessImpl.addressDao(AddressBusinessImpl.java:0)
+"}}
+2024-12-04 18:54:36,434 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "location.war" with deployment "location.war"
+2024-12-04 18:54:36,435 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."location.war".WeldStartService: Failed to start service
+WFLYCTL0448: 29 additional services are down due to their dependencies being missing or failed
+2024-12-04 18:54:36,449 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\7b\322a48a69d7353493d5c05132bf8440f0f0609\content
+2024-12-04 18:58:12,065 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\e8\429e6f45b82945c75df6fe1b5aa5e6581e8f00\content
+2024-12-04 18:58:12,080 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:58:12,082 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 85) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@896190e
+2024-12-04 18:58:12,082 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:58:12,209 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment location.war (runtime-name: location.war) in 141ms
+2024-12-04 18:58:12,220 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "location.war" (runtime-name: "location.war")
+2024-12-04 18:58:12,918 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for LocationApp
+2024-12-04 18:58:13,000 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 18:58:13,023 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-12-04 18:58:13,030 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment location.war
+2024-12-04 18:58:13,061 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AddressDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:app/location/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:module/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:global/location/AddressDaoImpl
+	java:app/location/AddressDaoImpl
+	java:module/AddressDaoImpl
+
+2024-12-04 18:58:13,061 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'LocationBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:jboss/exported/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	ejb:/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+
+2024-12-04 18:58:13,062 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'DataBaseInitializer' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:app/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:module/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:global/location/DataBaseInitializer
+	java:app/location/DataBaseInitializer
+	java:module/DataBaseInitializer
+
+2024-12-04 18:58:13,062 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AddressBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:app/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:module/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:global/location/AddressBusinessImpl
+	java:app/location/AddressBusinessImpl
+	java:module/AddressBusinessImpl
+
+2024-12-04 18:58:13,062 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'LocationDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:app/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:module/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:global/location/LocationDaoImpl
+	java:app/location/LocationDaoImpl
+	java:module/LocationDaoImpl
+
+2024-12-04 18:58:13,073 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:58:13,073 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 85) HHH000204: Processing PersistenceUnitInfo [name: LocationApp]
+2024-12-04 18:58:13,092 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 85) HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+2024-12-04 18:58:13,092 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 85) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 18:58:13,100 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 85) Envers integration enabled? : true
+2024-12-04 18:58:13,180 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 18:58:13,192 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-4) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2024-12-04 18:58:13,233 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 85) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:58:13,275 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 85) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 18:58:13,313 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 85) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 18:58:13,675 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 90) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class fr.univtours.polytech.location.rest.WebApp
+2024-12-04 18:58:13,698 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/location' for server 'default-server'
+2024-12-04 18:58:13,749 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "location.war" with deployment "location.war"
+2024-12-04 18:58:13,753 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.unit."location.war".component.AddressBusinessImpl.START (new available)
+      service jboss.deployment.unit."location.war".component.AddressBusinessImpl.WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component.AddressBusinessImpl.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."location.war".component.DataBaseInitializer.START (new available)
+      service jboss.deployment.unit."location.war".component.DataBaseInitializer.WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component.DataBaseInitializer.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."location.war".component.LocationBusinessImpl.START (new available)
+      service jboss.deployment.unit."location.war".component.LocationBusinessImpl.WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component.LocationBusinessImpl.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."location.war".component.LocationDaoImpl.START (new available)
+      service jboss.deployment.unit."location.war".component.LocationDaoImpl.WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component.LocationDaoImpl.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."location.war".component."fr.univtours.polytech.location.controller.AddressServlet".START (new available)
+      service jboss.deployment.unit."location.war".component."fr.univtours.polytech.location.controller.AddressServlet".WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component."fr.univtours.polytech.location.controller.LocationsListServlet".START (new available)
+      service jboss.deployment.unit."location.war".component."fr.univtours.polytech.location.controller.LocationsListServlet".WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component."jakarta.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (new available)
+      service jboss.deployment.unit."location.war".component."jakarta.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component."jakarta.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
+      service jboss.deployment.unit."location.war".component."jakarta.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component."org.jboss.weld.module.web.servlet.WeldInitialListener".START (new available)
+      service jboss.deployment.unit."location.war".component."org.jboss.weld.module.web.servlet.WeldInitialListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".component."org.jboss.weld.module.web.servlet.WeldTerminalListener".START (new available)
+      service jboss.deployment.unit."location.war".component."org.jboss.weld.module.web.servlet.WeldTerminalListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."location.war".deploymentCompleteService (new available)
+      service jboss.deployment.unit."location.war".ee.ComponentRegistry (new available)
+      service jboss.deployment.unit."location.war".undertow-deployment (new available)
+      service jboss.deployment.unit."location.war".undertow-deployment.UndertowDeploymentInfoService (new available)
+      service jboss.deployment.unit."location.war".weld.weldClassIntrospector (new available)
+
+2024-12-04 18:58:13,761 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\73\4156303bc036116906cd8a46bb59e4f6d4d80d\content
+2024-12-04 18:59:08,992 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\ad\d2ddb539ea59958d219540f88f582524e6d131\content
+2024-12-04 18:59:08,998 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0022: Unregistered web context: '/location' from server 'default-server'
+2024-12-04 18:59:09,025 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:59:09,029 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 95) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@79622c44
+2024-12-04 18:59:09,031 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:59:09,127 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment location.war (runtime-name: location.war) in 131ms
+2024-12-04 18:59:09,130 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "location.war" (runtime-name: "location.war")
+2024-12-04 18:59:09,753 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for LocationApp
+2024-12-04 18:59:09,819 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 18:59:09,843 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 95) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-12-04 18:59:09,859 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment location.war
+2024-12-04 18:59:09,882 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AddressDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:app/location/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:module/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:global/location/AddressDaoImpl
+	java:app/location/AddressDaoImpl
+	java:module/AddressDaoImpl
+
+2024-12-04 18:59:09,882 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:59:09,882 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'LocationBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:jboss/exported/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	ejb:/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+
+2024-12-04 18:59:09,882 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 95) HHH000204: Processing PersistenceUnitInfo [name: LocationApp]
+2024-12-04 18:59:09,882 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'DataBaseInitializer' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:app/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:module/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:global/location/DataBaseInitializer
+	java:app/location/DataBaseInitializer
+	java:module/DataBaseInitializer
+
+2024-12-04 18:59:09,882 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AddressBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:app/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:module/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:global/location/AddressBusinessImpl
+	java:app/location/AddressBusinessImpl
+	java:module/AddressBusinessImpl
+
+2024-12-04 18:59:09,882 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'LocationDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:app/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:module/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:global/location/LocationDaoImpl
+	java:app/location/LocationDaoImpl
+	java:module/LocationDaoImpl
+
+2024-12-04 18:59:09,898 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 95) HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+2024-12-04 18:59:09,898 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 95) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 18:59:09,911 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 95) Envers integration enabled? : true
+2024-12-04 18:59:09,992 INFO  [org.jipijapa] (MSC service thread 1-3) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 18:59:10,000 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-3) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2024-12-04 18:59:10,042 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 95) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 18:59:10,075 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 95) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 18:59:10,102 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 95) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 18:59:10,397 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 90) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class fr.univtours.polytech.location.rest.WebApp
+2024-12-04 18:59:10,404 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 90) WFLYUT0021: Registered web context: '/location' for server 'default-server'
+2024-12-04 18:59:10,451 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "location.war" with deployment "location.war"
+2024-12-04 18:59:10,457 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\e8\429e6f45b82945c75df6fe1b5aa5e6581e8f00\content
+2024-12-04 19:00:35,750 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\9f\8b6cdd8de5df56a4e21194dc0d7dd1974b2ee2\content
+2024-12-04 19:00:35,767 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 99) WFLYUT0022: Unregistered web context: '/location' from server 'default-server'
+2024-12-04 19:00:35,784 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 102) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 19:00:35,784 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 102) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@78e382a4
+2024-12-04 19:00:35,784 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 102) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 19:00:35,920 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment location.war (runtime-name: location.war) in 157ms
+2024-12-04 19:00:35,920 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "location.war" (runtime-name: "location.war")
+2024-12-04 19:00:36,557 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for LocationApp
+2024-12-04 19:00:36,638 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 19:00:36,650 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 102) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-12-04 19:00:36,666 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment location.war
+2024-12-04 19:00:36,693 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AddressDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:app/location/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:module/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:global/location/AddressDaoImpl
+	java:app/location/AddressDaoImpl
+	java:module/AddressDaoImpl
+
+2024-12-04 19:00:36,693 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'LocationBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:jboss/exported/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	ejb:/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+
+2024-12-04 19:00:36,693 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'DataBaseInitializer' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:app/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:module/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:global/location/DataBaseInitializer
+	java:app/location/DataBaseInitializer
+	java:module/DataBaseInitializer
+
+2024-12-04 19:00:36,693 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AddressBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:app/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:module/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:global/location/AddressBusinessImpl
+	java:app/location/AddressBusinessImpl
+	java:module/AddressBusinessImpl
+
+2024-12-04 19:00:36,693 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'LocationDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:app/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:module/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:global/location/LocationDaoImpl
+	java:app/location/LocationDaoImpl
+	java:module/LocationDaoImpl
+
+2024-12-04 19:00:36,699 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 102) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 19:00:36,699 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 102) HHH000204: Processing PersistenceUnitInfo [name: LocationApp]
+2024-12-04 19:00:36,724 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 102) HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+2024-12-04 19:00:36,724 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 102) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 19:00:36,734 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 102) Envers integration enabled? : true
+2024-12-04 19:00:36,807 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 19:00:36,815 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-1) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2024-12-04 19:00:36,861 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 102) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 19:00:36,902 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 102) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 19:00:36,943 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 102) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 19:00:37,256 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 102) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class fr.univtours.polytech.location.rest.WebApp
+2024-12-04 19:00:37,256 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 102) WFLYUT0021: Registered web context: '/location' for server 'default-server'
+2024-12-04 19:00:37,311 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "location.war" with deployment "location.war"
+2024-12-04 19:00:37,311 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\ad\d2ddb539ea59958d219540f88f582524e6d131\content
+2024-12-04 19:03:22,814 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\a2\949c4f18147ee7d50cd23a3896062590cd06b6\content
+2024-12-04 19:03:22,818 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 108) WFLYUT0022: Unregistered web context: '/location' from server 'default-server'
+2024-12-04 19:03:22,844 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 19:03:22,847 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 110) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@47bb82a1
+2024-12-04 19:03:22,848 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 19:03:22,957 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment location.war (runtime-name: location.war) in 146ms
+2024-12-04 19:03:22,966 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "location.war" (runtime-name: "location.war")
+2024-12-04 19:03:23,623 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for LocationApp
+2024-12-04 19:03:23,706 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 19:03:23,729 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 110) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2024-12-04 19:03:23,738 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment location.war
+2024-12-04 19:03:23,762 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AddressDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:app/location/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:module/AddressDaoImpl!fr.univtours.polytech.location.dao.AddressDao
+	java:global/location/AddressDaoImpl
+	java:app/location/AddressDaoImpl
+	java:module/AddressDaoImpl
+
+2024-12-04 19:03:23,762 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LocationBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:jboss/exported/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	ejb:/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessRemote
+	java:global/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:app/location/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+	java:module/LocationBusinessImpl!fr.univtours.polytech.location.business.LocationBusinessLocal
+
+2024-12-04 19:03:23,762 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'DataBaseInitializer' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:app/location/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:module/DataBaseInitializer!fr.univtours.polytech.location.utils.DataBaseInitializer
+	java:global/location/DataBaseInitializer
+	java:app/location/DataBaseInitializer
+	java:module/DataBaseInitializer
+
+2024-12-04 19:03:23,763 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'AddressBusinessImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:app/location/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:module/AddressBusinessImpl!fr.univtours.polytech.location.business.AddressBusiness
+	java:global/location/AddressBusinessImpl
+	java:app/location/AddressBusinessImpl
+	java:module/AddressBusinessImpl
+
+2024-12-04 19:03:23,763 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'LocationDaoImpl' in deployment unit 'deployment "location.war"' are as follows:
+
+	java:global/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:app/location/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:module/LocationDaoImpl!fr.univtours.polytech.location.dao.LocationDao
+	java:global/location/LocationDaoImpl
+	java:app/location/LocationDaoImpl
+	java:module/LocationDaoImpl
+
+2024-12-04 19:03:23,769 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'location.war#LocationApp'
+2024-12-04 19:03:23,769 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 110) HHH000204: Processing PersistenceUnitInfo [name: LocationApp]
+2024-12-04 19:03:23,791 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] (ServerService Thread Pool -- 110) HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+2024-12-04 19:03:23,792 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 110) HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-04 19:03:23,798 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 110) Envers integration enabled? : true
+2024-12-04 19:03:23,868 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for location.war#LocationApp
+2024-12-04 19:03:23,875 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-1) WFLYRS0018: Explicit usage of Jackson annotation in a Jakarta RESTful Web Services deployment; the system will disable Jakarta JSON Binding processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore Jakarta JSON Binding.
+2024-12-04 19:03:23,916 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 110) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'location.war#LocationApp'
+2024-12-04 19:03:23,953 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 110) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 19:03:23,975 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 110) HHH90000021: Encountered deprecated setting [javax.persistence.schema-generation.database.action], use [jakarta.persistence.schema-generation.database.action] instead
+2024-12-04 19:03:24,230 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 113) RESTEASY002225: Deploying jakarta.ws.rs.core.Application: class fr.univtours.polytech.location.rest.WebApp
+2024-12-04 19:03:24,240 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 113) WFLYUT0021: Registered web context: '/location' for server 'default-server'
+2024-12-04 19:03:24,290 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0016: Replaced deployment "location.war" with deployment "location.war"
+2024-12-04 19:03:24,300 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location c:\JEE\serveurs\wildfly-30.0.0.Final\standalone\data\content\9f\8b6cdd8de5df56a4e21194dc0d7dd1974b2ee2\content
